@@ -1,0 +1,7 @@
+#########
+# Aliases
+#########
+
+alias ll="ls -lhA"
+alias cd..="cd .."
+
