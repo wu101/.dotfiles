@@ -8,3 +8,10 @@ fi
 if [ -f ~/.bashalias ]; then
    source ~/.bashalias
 fi
+
+if [ -f ~/.git-completion.bash ]; then
+   source ~/.git-completion.bash
+else
+   curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+   source ~/.git-completion.bash
+fi
